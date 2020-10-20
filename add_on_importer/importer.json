@@ -1,0 +1,21 @@
+{
+    "version":2,
+    "commands":[
+        {
+            "id": "ache_test",
+            "displayName": "Ache_Test",
+            "program": "python",
+            "args": "\"Your path\\importer.py\"",//where your import.py is//
+
+            "cwd": "",
+
+            "contextMenu": {
+
+                "basePath": "test_folder",
+
+                "enabledFor": "Sound,ActorMixer,SwitchContainer,RandomSequenceContainer"
+
+            }
+        }
+    ]
+}
